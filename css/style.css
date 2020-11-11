@@ -69,21 +69,20 @@ header{
 
 .nav-main li{
   display: inline-block;
-  padding: 0 3px;
+  padding: 0 8px;
   font-size: 15px;
-  font-weight: bold;
 }
 
 .header-top .nav-right{
   width: 35%;
   height: 60px;
+  margin-left: 15px;
 }
 
 .nav-right li{
   display: inline-block;
-  padding: 0 3px;
+  padding: 0 8px;
   font-size: 15px;
-  font-weight: bold;
 }
 
 .nav-right li .btn{
@@ -148,6 +147,7 @@ section:nth-child(3n+1){
 
 .piano h2{
   margin: 20px 0;
+  color: rgb(25, 182, 1);
 }
 
 .piano hr{
@@ -171,6 +171,7 @@ section:nth-child(3n+1){
 
 .tutor h2{
   margin: 20px 0;
+  color: rgb(25, 182, 1);
 }
 
 .tutor hr{
@@ -193,6 +194,7 @@ section:nth-child(3n+1){
 
 .progressi h2{
   margin: 20px 0;
+  color: rgb(25, 182, 1);
 }
 
 .progressi hr{
@@ -252,5 +254,20 @@ section:nth-child(3n+1){
 }
 
 .section-bottom-right a{
-  padding: 20px 10px;
+  padding: 12px 10px;
+}
+
+.section-bottom-right select{
+  border: 1px solid transparent;
+  color: lighgray;
+}
+
+.section-bottom .help{
+  position: fixed;
+  bottom: 0;
+  right: 13%;
+  padding: 5px 10px;
+  background-color: rgb(25, 182, 1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
