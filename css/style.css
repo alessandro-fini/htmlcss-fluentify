@@ -117,3 +117,90 @@ header{
   padding: 20px 20px;
 }
 /* /header */
+
+/* Inizio main */
+section:nth-child(3n+1){
+  background-color: lightgray;
+}
+
+.section-top{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.section-top h3{
+  color: gray;
+  margin-top: 10px;
+}
+
+.section-center{
+  margin-top: 20px;
+}
+
+.section-center .piano{
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+}
+
+.piano img{
+  width: 30%;
+}
+
+.piano h2{
+  margin: 20px 0;
+}
+
+.piano hr{
+  width: 20%;
+  margin-left: 40%;
+}
+
+.piano p{
+  margin-top: 20px;
+}
+
+.section-center .tutor{
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  margin: 0 20px;
+}
+
+.tutor img{
+  width: 51%;
+}
+
+.tutor h2{
+  margin: 20px 0;
+}
+
+.tutor hr{
+  width: 20%;
+  margin-left: 40%;
+}
+
+.tutor p{
+  margin-top: 20px;
+}
+
+.section-center .progressi{
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+}
+
+.progressi img{
+  width: 35%;
+}
+
+.progressi h2{
+  margin: 20px 0;
+}
+
+.progressi hr{
+  width: 20%;
+  margin-left: 40%;
+}
+
+.progressi p{
+  margin-top: 20px;
+
+}
