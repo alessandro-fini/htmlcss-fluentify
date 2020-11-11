@@ -216,9 +216,26 @@ section:nth-child(3n+1){
 }
 
 .section-center .mountain img{
-  width: 30%;
+  width: 70%;
+  margin-left: 20%;
 }
 
 .section-center .livello{
   width: calc(100% / 2);
+}
+
+.livello h2{
+  width: 60%;
+}
+
+.livello p{
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.livello a{
+  color: blue;
+  text-transform: inherit;
+  text-decoration: underline;
 }
