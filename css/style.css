@@ -239,3 +239,18 @@ section:nth-child(3n+1){
   text-transform: inherit;
   text-decoration: underline;
 }
+
+.section-bottom{
+  margin-top: 30px;
+  padding: 40px 20px;
+}
+
+.section-bottom-right select{
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-bottom-right a{
+  padding: 20px 10px;
+}
